@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style1.css">
+		<link rel="stylesheet" href="style2.css">
+		<link rel="stylesheet" href="style3.css">
+		<link rel="stylesheet" href="homess.css">
+		<style>
+			body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+			.bar,h1,button {font-family: "Montserrat", sans-serif}
+			.fa-anchor,.fa-coffee {font-size:200px}
+			.bgimg {
+    				background-image: url('IMG-20180129-WA0017.jpg');
+			}		
+
+		</style>
+	</head>
+	<body>
+		<div class="top">
+	  		<div class="bar black card left-align large">
+    				<a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
+
+    				<a href="home.html" class="bar-item button hide-small padding-large hover-white">Home</a>
+    				<a href="about.html" class="bar-item button hide-small padding-large hover-white">About</a>
+    				<a href="contactus.html" class="bar-item button hide-small padding-large hover-white">Contact us</a>
+    				<a href="myteam.html" class="bar-item button hide-small padding-large hover-white">MyTeam</a>    
+				<a href="events.html" class="bar-item button hide-small padding-large hover-white">Events</a>
+				<a href="register.html" class="bar-item button hide-small padding-large hover-white">Register</a>
+  			</div>
+  			<div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+    				<a href="#" class="bar-item button padding-large">Link 1</a>
+    				<a href="#" class="bar-item button padding-large">Link 2</a>
+    				<a href="#" class="bar-item button padding-large">Link 3</a>
+    				<a href="#" class="bar-item button padding-large">Link 4</a>
+  			</div>
+		<div>
+			<br>
+		<p><strong><center><h2> Scan the Selected QR codes to make your payments</h2></p></center>
+				<br><center><img src="paytmlogo.png"height="10%"width="15%"><img src="qrcode.jpg" alt=""height="20%" width="20%"></center><br><br></img>
+				<br><center><img src="IMG-20180202-WA0003.jpg"height="10%"width="15%"><img src="IMG-20180202-WA0002.jpg" alt=""height="20%" width="20%"></center><br><br><br></img>
+              <center><button onload="perform()">OK</button</center>
+		</div>	
+<script>
+	function perform()
+	{
+		if(confirm(ok)==true)
+			alert(you have succesfully done your payment.);
+		else
+			alert(please check your details..!)
+	}
+</script>
